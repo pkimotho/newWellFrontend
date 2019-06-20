@@ -1,0 +1,13 @@
+get http://192.168.0.103:3000/artist/
+###
+POST http://192.168.0.103:3000/artist/new
+Content-Type: application/json
+
+{
+    "name": "Kim",
+    "bio": "xyx",
+    "profilePic": "kkdkd",
+    "genre": ["xye", "eiei", "diei"],
+    "password": "123",
+    "email": "123@example.com"
+}

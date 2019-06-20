@@ -1,0 +1,21 @@
+.jumbotron {
+    margin-top: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container-outer {
+    display: flex;
+    background-image: url(../../../assets/images/bgSignUp.jpg);
+    background-color: #666;
+    background-blend-mode: screen;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.jumbotron {
+    width: 40vw;
+}
